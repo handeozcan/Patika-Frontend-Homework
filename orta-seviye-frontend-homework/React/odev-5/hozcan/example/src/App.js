@@ -8,44 +8,43 @@ const App = () => {
     <div>
       <Text text='Patika Dev Project' />
       <ExampleComponent text='you can check my githup site 😄' />
-      <div className='button'>
+    
         <ButtonColor
-          type='button'
-          class='primary'
+          className="primary"
           onClick={() => alert('https://github.com/handeozcan')}
           text='Primary Button'
         />
         <br />
         <ButtonColor
           type='button'
-          class='default'
+          className='default'
           onClick={() => alert('https://github.com/handeozcan')}
           text='Default Button'
         />
         <br />
         <ButtonColor
           type='button'
-          class='dashed'
+          className='dashed'
           onClick={() => alert('https://github.com/handeozcan')}
           text='Dashed Button'
         />
         <br />
         <ButtonColor
           type='button'
-          class='text'
+          className='text'
           onClick={() => alert('https://github.com/handeozcan')}
           text='Text Button'
         />
         <br />
         <ButtonColor
           type='button'
-          class='link'
+          className='link'
           onClick={() => alert('https://github.com/handeozcan')}
           text='Link Button'
         />
         <br />
       </div>
-    </div>
+ 
   )
 }
 

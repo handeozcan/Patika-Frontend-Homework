@@ -19,3 +19,42 @@ svg {
   stroke-dashoffset: 150;
   transition: 1s ease-in-out;
 }
+
+.primary {
+  width: 180px;
+  height: 60px;
+  background: transparent;
+  border: 1px dashed #4fda5b;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.default {
+  width: 180px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #ff9900;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.dashed {
+  width: 180px;
+  height: 60px;
+  background: transparent;
+  border: 1px dashed #000000;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.link {
+  text-decoration: underline;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px  #040404;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+
